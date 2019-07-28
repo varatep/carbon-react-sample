@@ -3,6 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import PersonDetails from './Person/PersonDetails';
+
+<Router>
+  <Route path='/' component={App} />
+  <Route path='/person/:id' component={PersonDetails} />
+</Router>
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

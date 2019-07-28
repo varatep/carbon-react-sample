@@ -7,8 +7,13 @@
     "@types/node": "12.6.8",
     "@types/react": "16.8.23",
     "@types/react-dom": "16.8.5",
+    "carbon-components": "^10.4.1",
+    "carbon-components-react": "^7.4.1",
+    "carbon-icons": "^7.0.7",
+    "faker": "^4.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "typescript": "3.5.3"
   },
@@ -32,5 +37,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.tsx",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varatep/carbon-react-sample.git"
+  },
+  "author": "Varatep Buranintu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/varatep/carbon-react-sample/issues"
+  },
+  "homepage": "https://github.com/varatep/carbon-react-sample#readme"
 }
